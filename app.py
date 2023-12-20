@@ -109,8 +109,8 @@ if __name__ == "__main__":
             st.sidebar.info("Please scroll to bottom for results")
 
             # Display predictions
-            st.write(f"Probability of being healthy: {prob_healthy:.2%}")
-            st.write(f"Probability of having blast cells: {prob_blast_cells:.2%}")
+            st.write(f"Probability of being affected: {prob_healthy:.2%}")
+            st.write(f"Probability of having healhiness: {prob_blast_cells:.2%}")
 
             # Identify patients with highly likely leukemia
             if prob_blast_cells <= threshold:
